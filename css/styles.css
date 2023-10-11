@@ -7,9 +7,9 @@ ul {
 }
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 button {
@@ -30,10 +30,10 @@ button {
 }
 
 .logo-link-header span {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1, 16;
+  line-height: 1, 17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -42,17 +42,18 @@ button {
 .navigation-list-menu {
   font-size: 16px;
   font-weight: 500;
-  line-height: 0, 15;
+  line-height: 1, 5;
   color: #2e2f42;
 }
 
-.navigation-list-menu .navigation-list-item:hover,
-.navigation-list-menu .navigation-list-item:focus {
+.navigation-list-item:hover,
+.navigation-list-item:focus {
   color: #404bbf;
 }
 
 .address-list-item {
   font-size: 16px;
+  font-style: normal;
   line-height: 1, 5;
   color: #434455;
 }
@@ -73,7 +74,23 @@ button {
   font-size: 56px;
   font-weight: 700;
   line-height: 1, 07;
+  letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
 }
 
 /* Section One */
@@ -84,7 +101,8 @@ button {
 .section-one-list-heading {
   font-size: 20px;
   font-weight: 500;
-  line-height: 0, 12;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -97,13 +115,15 @@ button {
 /* Section Two */
 
 .section-two-caption {
-  background: #f4f4fd;
+  background: #ffffff;
 }
 
 .section-two-title {
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 0, 11;
+  line-height: 1, 11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -111,7 +131,7 @@ button {
 .section-two-list-heading {
   font-size: 20px;
   font-weight: 500;
-  line-height: 0, 12;
+  line-height: 1, 2;
   color: #2e2f42;
 }
 
@@ -130,7 +150,7 @@ button {
 .section-three-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1, 1;
+  line-height: 1, 2;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -138,13 +158,14 @@ button {
 .section-three-list-heading {
   font-size: 20px;
   font-weight: 500;
-  line-height: 0, 12;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .section-three-desc {
   font-size: 16px;
-  line-height: 0, 15;
+  line-height: 1, 5;
   color: #434455;
 }
 
@@ -155,10 +176,10 @@ button {
 }
 
 .logo-link-footer {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1, 16;
+  line-height: 1, 17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
