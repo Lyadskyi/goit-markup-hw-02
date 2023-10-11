@@ -19,10 +19,10 @@ button {
 /* Navigation */
 
 .logo-link-header {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -43,6 +43,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -55,6 +56,7 @@ button {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -116,7 +118,7 @@ button {
 /* Section Two */
 
 .section-two-caption {
-  background: #f4f4fd;
+  background: #ffffff;
 }
 
 .section-two-title {
