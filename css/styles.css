@@ -18,7 +18,7 @@ button {
 
 /* Navigation */
 
-.logo-link-header {
+.logotype {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -29,7 +29,7 @@ button {
   color: #4d5ae5;
 }
 
-.logo-link-header span {
+.logotype span {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -39,7 +39,7 @@ button {
   color: #2e2f42;
 }
 
-.navigation-list-menu {
+.menu.link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -47,12 +47,12 @@ button {
   color: #2e2f42;
 }
 
-.navigation-list-item:hover,
-.navigation-list-item:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: #404bbf;
 }
 
-.address-list-item {
+.address-list-link {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
@@ -60,8 +60,8 @@ button {
   color: #434455;
 }
 
-.address-list-item:hover,
-.address-list-item:focus {
+.address-list-link:hover,
+.address-list-link:focus {
   color: #404bbf;
 }
 
