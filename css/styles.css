@@ -39,7 +39,7 @@ button {
   color: #2e2f42;
 }
 
-.menu.link {
+.navigation-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -118,7 +118,7 @@ button {
 /* Section Two */
 
 .section-two-caption {
-  background: #ffffff;
+  background: #f4f4fd;
 }
 
 .section-two-title {
@@ -129,6 +129,10 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.section-two-list-item {
+  background-color: #ffffff;
 }
 
 .section-two-list-heading {
